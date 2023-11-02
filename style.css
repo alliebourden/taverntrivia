@@ -29,3 +29,9 @@ body{
     background: #AC663E;
     cursor: pointer;
 }
+
+.info-box {
+    width: 540px;
+    background: #AC663E;
+    border-radius: 5px;
+}
