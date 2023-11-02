@@ -82,10 +82,28 @@ body{
     height: 40px;
     width: 100px;
     border: 1px solid #AC663E;
-    background: #AC663E;
     border-radius: 5px;
     color: #FDF9EF;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.exit-btn {
+    border-color: #AC663E;
+    color: #AC663E;
+}
+
+.buttons button.exit-btn:hover {
+    background: #AC663E;
+    color: #FDF9EF;
+}
+
+.buttons button.test-btn {
+    background: #AC663E;
+}
+
+.buttons button.test-btn:hover {
+    background: #8a3707;
 }
