@@ -15,3 +15,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.start-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #FDF9EF;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #AC663E;
+    cursor: pointer;
+}
