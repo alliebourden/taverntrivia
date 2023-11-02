@@ -8,6 +8,9 @@
 body{
     background-image: url(images/Tavern\ trivia\ background.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .start-btn,
@@ -33,7 +36,7 @@ body{
 
 .info-box {
     width: 540px;
-    background: #BB843C;
+    background: #FDF9EF;
     border-style: solid;
     border-radius: 5px;
     border-color: #AC663E;
