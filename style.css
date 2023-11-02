@@ -32,6 +32,20 @@ body{
 
 .info-box {
     width: 540px;
-    background: #AC663E;
+    background: #FDF9EF;
+    border-style: solid;
     border-radius: 5px;
+    border-color: #AC663E;
+    border-width: 3px;
+}
+
+.info-box .info-title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #AC663E;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
 }
