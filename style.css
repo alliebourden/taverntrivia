@@ -53,3 +53,17 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+.info-box .info-list {
+    padding: 15px 35px;
+}
+
+.info-box .info-list .info {
+    margin: 5px 0;
+    font-size: 16px;
+
+}
+
+.info-box .info-list .info .span {
+    font-weight: 500;
+}
