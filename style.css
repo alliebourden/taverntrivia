@@ -117,6 +117,8 @@ body{
 }
 
 .quiz-box header {
+    position: relative;
+    z-index: 99;
     height: 70px;
     padding: 0 30px;
     background: #FDF9EF;
@@ -163,4 +165,9 @@ body{
     border-radius: 5px;
     border: 1px solid #58290e;
     user-select: none;
+}
+
+.quiz-box section {
+    padding: 25px 30px 20px 30px;
+    background: #FDF9EF;
 }
