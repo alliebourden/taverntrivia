@@ -147,13 +147,13 @@ body{
     padding: 0 8px;
 }
 
-.quiz-box header .timer .time-text {
+.quiz-box header .timer .timer-text {
     font-weight: 400;
     font-size: 17px;
     user-select: none;
 }
 
-.quiz-box header .timer .time-sec {
+.quiz-box header .timer .timer-sec {
     font-size: 18px;
     font-weight: 500;
     background: #1f0c02;
