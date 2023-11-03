@@ -132,3 +132,15 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+.quiz-box header .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background: #AC663E;
+    border: 1px solid #58290e;
+    border-radius: 5px;
+    padding: 0 8px;
+}
