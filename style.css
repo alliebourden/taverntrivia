@@ -194,3 +194,13 @@ section .answer-list .option {
     justify-content: space-between;
     cursor: pointer;
 }
+
+section .answer-list .option:hover {
+    color:#FDF9EF;
+    background-color: #8a3707;
+    border-color: #58290e;
+}
+
+.answer-list .option:last-child {
+    margin-bottom: 0px;
+}
