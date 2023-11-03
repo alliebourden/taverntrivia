@@ -14,7 +14,8 @@ body{
 }
 
 .start-btn,
-.info-box {
+.info-box,
+.quiz-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -108,3 +109,10 @@ body{
 .buttons button.test-btn:hover {
     background: #8a3707;
 }
+
+.quiz-box {
+    width: 550px;
+    background: #FDF9EF;
+    border-radius: 5px;
+}
+
