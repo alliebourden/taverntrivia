@@ -176,3 +176,8 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+.quiz-box section .answer-list {
+     padding: 20px 0;
+     display: block;
+}
