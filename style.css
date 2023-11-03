@@ -150,3 +150,17 @@ body{
     font-size: 17px;
     user-select: none;
 }
+
+.quiz-box header .timer .time-sec {
+    font-size: 18px;
+    font-weight: 500;
+    background: #1f0c02;
+    height: 30px;
+    width: 45px;
+    color: #FDF9EF;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #58290e;
+    user-select: none;
+}
