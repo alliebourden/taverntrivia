@@ -181,3 +181,16 @@ body{
      padding: 20px 0;
      display: block;
 }
+
+section .answer-list .option {
+    background: #BB843C;
+    border: 1px solid #8a3707;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
