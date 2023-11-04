@@ -111,6 +111,7 @@ body{
 }
 
 .quiz-box {
+    display: none;
     width: 550px;
     background: #FDF9EF;
     border-radius: 5px;
@@ -239,9 +240,37 @@ section .answer-list .option:hover {
     justify-content: space-between;
 }
 
+.quiz-box footer .total-questions span {
+    display: flex;
+    user-select: none;
+}
 
+footer .total-questions span p {
+    font-weight: 500;
+    padding: 0 5px;
+}
 
+.total-questions span p:first-child {
+    padding-left: 0px;
+}
 
+footer .next-button {
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: #FDF9EF;
+    background-color: #BB843C;
+    border-radius: 5px;
+    border: 1px solid #BB843C;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+footer .next-button:hover {
+    background:#AC663E;
+}
 
 
