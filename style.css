@@ -219,7 +219,16 @@ section .answer-list .option:hover {
 }
 
 .answer-list .option .icon.true {
-    color: #eec146;
-    border-color:  #eec146;
+    color: #30a00e;
+    border-color:  #30a00e;
+    background: #FDF9EF;
 }
+
+.answer-list .option .icon.false {
+    color: #c50b0b;
+    border-color:  #c50b0b;
+    background: #FDF9EF;
+}
+
+
 
