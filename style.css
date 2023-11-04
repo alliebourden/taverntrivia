@@ -193,6 +193,7 @@ section .answer-list .option {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 section .answer-list .option:hover {
@@ -203,5 +204,22 @@ section .answer-list .option:hover {
 
 .answer-list .option:last-child {
     margin-bottom: 0px;
+}
+
+.answer-list .option .icon {
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    pointer-events: none;
+
+}
+
+.answer-list .option .icon.true {
+    color: #eec146;
+    border-color:  #eec146;
 }
 
