@@ -7,3 +7,8 @@ const continue_btn = document.querySelector(".buttons .test-btn");
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo");
 }
+
+// Exit Button Click
+exit_btn.onclick = () => {
+    info_box.classList.remove("activeInfo");
+}
