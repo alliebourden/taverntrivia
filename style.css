@@ -15,7 +15,8 @@ body{
 
 .start-btn,
 .info-box,
-.quiz-box {
+.quiz-box,
+.results-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -273,4 +274,14 @@ footer .next-button:hover {
     background:#AC663E;
 }
 
-
+.results-box {
+    background: #FDF9EF;
+    width: 450px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
