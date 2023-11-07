@@ -309,4 +309,41 @@ footer .next-button:hover {
     padding: 0 4px;
 }
 
+.results-box .buttons {
+    display: flex;
+    margin: 20px 0;
+}
 
+.results-box .buttons button {
+    margin: 0 10px;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #BB843C;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart-btn {
+    background-color: #AC663E;
+    color:#FDF9EF;
+}
+
+.buttons button.restart-btn:hover {
+    background-color: #58290e;
+    color: #FDF9EF;
+}
+
+.buttons button.quit-btn {
+    background-color: #FDF9EF;
+    color: #AC663E;
+}
+
+.buttons button.quit-btn:hover {
+    background-color: #58290e;
+    color: #FDF9EF;
+}
