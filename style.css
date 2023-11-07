@@ -45,9 +45,9 @@ body{
     border-radius: 5px;
     border-color: #AC663E;
     border-width: 3px;
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9); */
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .info-box .info-title {
