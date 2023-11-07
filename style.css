@@ -45,9 +45,9 @@ body{
     border-radius: 5px;
     border-color: #AC663E;
     border-width: 3px;
-    opacity: 0;
+    /* opacity: 0;
     pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.9); */
 }
 
 .info-box .info-title {
@@ -103,7 +103,7 @@ body{
 }
 
 .buttons button.exit-btn:hover {
-    background: #AC663E;
+    background: #58290e;
     color: #FDF9EF;
 }
 
@@ -112,7 +112,7 @@ body{
 }
 
 .buttons button.test-btn:hover {
-    background: #8a3707;
+    background: #58290e;
 }
 
 .quiz-box {
