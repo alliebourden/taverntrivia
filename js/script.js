@@ -18,13 +18,19 @@ exit_btn.onclick = () => {
 continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeTrivia");
-    showTrivia();
+    showTrivia(0);
 }
 
 let question_count = 0;
 
-function showTrivia() {
+function showTrivia(index) {
     const question_text = document.querySelector(".question-text");
-    let question_tag = '<span>'+ questions[0].question +'</span>';
+    const option_list = document.querySelector(".answer-list");
+    let question_tag = '<span>'+ questions[index].question +'</span>';
+    let option_tag = '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
+                    + '<div class="option"><span></span></div>'
+                    + '<div class="option"><span></span></div>'
+                    + '<div class="option"><span></span></div>';
     question_text.innerHTML = question_tag;
+    option_list.innerHTML = option_tag;
 }
