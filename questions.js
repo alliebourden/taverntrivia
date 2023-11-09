@@ -44,4 +44,15 @@ let questions = [
             "Glyphmancy",
         ]
     },
+    {
+        numb: 5,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
 ];
