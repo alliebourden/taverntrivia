@@ -8,7 +8,7 @@ let questions = [
             "Slashing",
             "Necrotic",
             "Force",
-            "Sound",
+            "Sound"
         ]
     },
     {
@@ -19,7 +19,7 @@ let questions = [
             "Bag of Holding",
             "Pouch of Infinite Storage",
             "Sack of Secrets",
-            "Coinpurse of Wealth",
+            "Coinpurse of Wealth"
         ]
     },
     {
@@ -30,7 +30,7 @@ let questions = [
             "Common",
             "Uncommon",
             "Mythical",
-            "Legendary",
+            "Legendary"
         ]
     },
     {
@@ -41,7 +41,7 @@ let questions = [
             "Abjuration",
             "Enchantment",
             "Divination",
-            "Glyphmancy",
+            "Glyphmancy"
         ]
     },
     {
@@ -52,7 +52,7 @@ let questions = [
             "Sigil",
             "Mechanus",
             "Limbo",
-            "Pandemonium",
+            "Pandemonium"
         ]
     },
     {
@@ -63,7 +63,7 @@ let questions = [
             "Charisma",
             "Wisdom",
             "Luck",
-            "Intelligence",
+            "Intelligence"
         ]
     },
     {
@@ -74,7 +74,7 @@ let questions = [
             "20 feet",
             "30 feet",
             "40 feet",
-            "50 feet",
+            "50 feet"
         ]
     },
     {
@@ -85,7 +85,7 @@ let questions = [
             "Fireball",
             "Mage Armor",
             "Prestidigitation",
-            "Lightning Bolt",
+            "Lightning Bolt"
         ]
     },
     {
@@ -96,7 +96,7 @@ let questions = [
             "Charisma",
             "Intelligence",
             "Wisdom",
-            "Dexterity",
+            "Dexterity"
         ]
     },
     {
@@ -107,7 +107,7 @@ let questions = [
             "Eberron",
             "Forgotten Realms",
             "Greyhawk",
-            "Dragonlance",
+            "Dragonlance"
         ]
     },
     {
@@ -118,7 +118,7 @@ let questions = [
             "Increased movement speed",
             "Advantage on Strength checks",
             "Bonus to damage rolls",
-            "Temporary hit points",
+            "Temporary hit points"
         ]
     },
     {
@@ -129,7 +129,7 @@ let questions = [
             "Circle of the Moon",
             "College of Lore",
             "Oath of Devotion",
-            "Way of the Four Elements",
+            "Way of the Four Elements"
         ]
     },
     {
@@ -140,7 +140,7 @@ let questions = [
             "Caer Callidyrr",
             "Mintarn",
             "Norland",
-            "Alaron",
+            "Alaron"
         ]
     },
     {
@@ -151,7 +151,7 @@ let questions = [
             "Salamanders",
             "Efreet",
             "Fire Genasi",
-            "Efreet",
+            "Efreet"
         ]
     },
     {
@@ -162,7 +162,7 @@ let questions = [
             "Oghma",
             "Gond",
             "Boccob",
-            "Mystra",
+            "Mystra"
         ]
     },
 ];
