@@ -134,13 +134,13 @@ let questions = [
     },
     {
         numb: 13,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "What is the capital city of the Moonshae Isles?",
+        answer: "Caer Callidyrr",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Caer Callidyrr",
+            "Mintarn",
+            "Norland",
+            "Alaron",
         ]
     },
     {
