@@ -55,4 +55,114 @@ let questions = [
             "Pandemonium",
         ]
     },
+    {
+        numb: 6,
+        questions: "Which of the following is not a D&D 5E ability score?",
+        answer: "Luck",
+        options: [
+            "Charisma",
+            "Wisdom",
+            "Luck",
+            "Intelligence",
+        ]
+    },
+    {
+        numb: 7,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 8,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 9,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 10,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 11,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 12,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 13,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 14,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
+    {
+        numb: 15,
+        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        answer: "Sigil",
+        options: [
+            "Sigil",
+            "Mechanus",
+            "Limbo",
+            "Pandemonium",
+        ]
+    },
 ];
