@@ -156,13 +156,13 @@ let questions = [
     },
     {
         numb: 15,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "Which deity is often depicted as a wise old man and is associated with knowledge, learning, and magic?",
+        answer: "Oghma",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Oghma",
+            "Gond",
+            "Boccob",
+            "Mystra",
         ]
     },
 ];
