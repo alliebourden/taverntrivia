@@ -18,4 +18,13 @@ exit_btn.onclick = () => {
 continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeTrivia");
+    showTrivia();
+}
+
+let question_count = 0;
+
+function showTrivia() {
+    const question_text = document.querySelector(".question-text");
+    let question_tag = '<span>'+ questions[0].question +'</span>';
+    question_text.innerHTML = question_tag;
 }
