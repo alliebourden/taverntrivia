@@ -90,13 +90,13 @@ let questions = [
     },
     {
         numb: 9,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "What is the primary ability score for the Sorcerer class?",
+        answer: "Charisma",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Charisma",
+            "Intelligence",
+            "Wisdom",
+            "Dexterity",
         ]
     },
     {
