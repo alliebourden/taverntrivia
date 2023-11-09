@@ -33,4 +33,15 @@ let questions = [
             "Legendary",
         ]
     },
+    {
+        numb: 4,
+        questions: "Which of the following is not a school of magic?",
+        answer: "Mythical",
+        options: [
+            "Abjuration",
+            "Enchantment",
+            "Divination",
+            "Glyphmancy",
+        ]
+    },
 ];
