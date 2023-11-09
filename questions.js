@@ -112,13 +112,13 @@ let questions = [
     },
     {
         numb: 11,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "What is the main feature of a Barbarian's Rage ability?",
+        answer: "Bonus to damage rolls",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Increased movement speed",
+            "Advantage on Strength checks",
+            "Bonus to damage rolls",
+            "Temporary hit points",
         ]
     },
     {
