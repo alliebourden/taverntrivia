@@ -22,4 +22,15 @@ let questions = [
             "Coinpurse of Wealth",
         ]
     },
+    {
+        numb: 3,
+        questions: "Which of the following is not a type of magic item rarity?",
+        answer: "Mythical",
+        options: [
+            "Common",
+            "Uncommon",
+            "Mythical",
+            "Legendary",
+        ]
+    },
 ];
