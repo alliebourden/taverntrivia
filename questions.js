@@ -101,13 +101,13 @@ let questions = [
     },
     {
         numb: 10,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "What is the name of the default campaign setting for D&D 5E?",
+        answer: "Forgotten Realms",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Eberron",
+            "Forgotten Realms",
+            "Greyhawk",
+            "Dragonlance",
         ]
     },
     {
