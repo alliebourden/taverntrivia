@@ -2,7 +2,7 @@
 let questions = [
     {
         numb: 1,
-        questions: "Which of the following is not a type of damage?",
+        question: "Which of the following is not a type of damage?",
         answer: "Sound",
         options: [
             "Slashing",
@@ -13,7 +13,7 @@ let questions = [
     },
     {
         numb: 2,
-        questions: "What is the name of the magical, sentient bag often used to carry a wide variety of items?",
+        question: "What is the name of the magical, sentient bag often used to carry a wide variety of items?",
         answer: "Bag of Holding",
         options: [
             "Bag of Holding",
@@ -24,7 +24,7 @@ let questions = [
     },
     {
         numb: 3,
-        questions: "Which of the following is not a type of magic item rarity?",
+        question: "Which of the following is not a type of magic item rarity?",
         answer: "Mythical",
         options: [
             "Common",
@@ -35,7 +35,7 @@ let questions = [
     },
     {
         numb: 4,
-        questions: "Which of the following is not a school of magic?",
+        question: "Which of the following is not a school of magic?",
         answer: "Mythical",
         options: [
             "Abjuration",
@@ -46,7 +46,7 @@ let questions = [
     },
     {
         numb: 5,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
+        question: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
         answer: "Sigil",
         options: [
             "Sigil",
@@ -57,7 +57,7 @@ let questions = [
     },
     {
         numb: 6,
-        questions: "Which of the following is not a D&D 5E ability score?",
+        question: "Which of the following is not a D&D 5E ability score?",
         answer: "Luck",
         options: [
             "Charisma",
@@ -68,7 +68,7 @@ let questions = [
     },
     {
         numb: 7,
-        questions: "What is the standard movement speed for most characters in combat?",
+        question: "What is the standard movement speed for most characters in combat?",
         answer: "30 feet",
         options: [
             "20 feet",
@@ -79,7 +79,7 @@ let questions = [
     },
     {
         numb: 8,
-        questions: "Which of the following is a cantrip?",
+        question: "Which of the following is a cantrip?",
         answer: "Prestidigitation",
         options: [
             "Fireball",
@@ -90,7 +90,7 @@ let questions = [
     },
     {
         numb: 9,
-        questions: "What is the primary ability score for the Sorcerer class?",
+        question: "What is the primary ability score for the Sorcerer class?",
         answer: "Charisma",
         options: [
             "Charisma",
@@ -101,7 +101,7 @@ let questions = [
     },
     {
         numb: 10,
-        questions: "What is the name of the default campaign setting for D&D 5E?",
+        question: "What is the name of the default campaign setting for D&D 5E?",
         answer: "Forgotten Realms",
         options: [
             "Eberron",
@@ -112,7 +112,7 @@ let questions = [
     },
     {
         numb: 11,
-        questions: "What is the main feature of a Barbarian's Rage ability?",
+        question: "What is the main feature of a Barbarian's Rage ability?",
         answer: "Bonus to damage rolls",
         options: [
             "Increased movement speed",
@@ -123,7 +123,7 @@ let questions = [
     },
     {
         numb: 12,
-        questions: "Which of the following is a Druid circle?",
+        question: "Which of the following is a Druid circle?",
         answer: "Circle of the Moon",
         options: [
             "Circle of the Moon",
@@ -134,7 +134,7 @@ let questions = [
     },
     {
         numb: 13,
-        questions: "What is the capital city of the Moonshae Isles?",
+        question: "What is the capital city of the Moonshae Isles?",
         answer: "Caer Callidyrr",
         options: [
             "Caer Callidyrr",
@@ -145,7 +145,7 @@ let questions = [
     },
     {
         numb: 14,
-        questions: "The City of Brass, a metropolis on the Elemental Plane of Fire, is ruled by powerful beings known as:",
+        question: "The City of Brass, a metropolis on the Elemental Plane of Fire, is ruled by powerful beings known as:",
         answer: "Efreet",
         options: [
             "Salamanders",
@@ -156,7 +156,7 @@ let questions = [
     },
     {
         numb: 15,
-        questions: "Which deity is often depicted as a wise old man and is associated with knowledge, learning, and magic?",
+        question: "Which deity is often depicted as a wise old man and is associated with knowledge, learning, and magic?",
         answer: "Oghma",
         options: [
             "Oghma",
