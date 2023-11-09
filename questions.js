@@ -145,13 +145,13 @@ let questions = [
     },
     {
         numb: 14,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "The City of Brass, a metropolis on the Elemental Plane of Fire, is ruled by powerful beings known as:",
+        answer: "Efreet",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Salamanders",
+            "Efreet",
+            "Fire Genasi",
+            "Efreet",
         ]
     },
     {
