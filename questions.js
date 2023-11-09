@@ -123,13 +123,13 @@ let questions = [
     },
     {
         numb: 12,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "Which of the following is a Druid circle?",
+        answer: "Circle of the Moon",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Circle of the Moon",
+            "College of Lore",
+            "Oath of Devotion",
+            "Way of the Four Elements",
         ]
     },
     {
