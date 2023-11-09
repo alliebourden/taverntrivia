@@ -79,13 +79,13 @@ let questions = [
     },
     {
         numb: 8,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "Which of the following is a cantrip?",
+        answer: "Prestidigitation",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "Fireball",
+            "Mage Armor",
+            "Prestidigitation",
+            "Lightning Bolt",
         ]
     },
     {
