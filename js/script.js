@@ -27,10 +27,10 @@ function showTrivia(index) {
     const question_text = document.querySelector(".question-text");
     const option_list = document.querySelector(".answer-list");
     let question_tag = '<span>'+ questions[index].question +'</span>';
-    let option_tag = '<div class="option">'+ questions[index].options[0] +'<span></span></div>';
-                    + '<div class="option"><span></span></div>'
-                    + '<div class="option"><span></span></div>'
-                    + '<div class="option"><span></span></div>';
+    let option_tag = '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[3] +'<span></span></div>';
     question_text.innerHTML = question_tag;
     option_list.innerHTML = option_tag;
 }
