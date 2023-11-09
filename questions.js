@@ -68,13 +68,13 @@ let questions = [
     },
     {
         numb: 7,
-        questions: "What is the name of the extraplanar city that serves as a hub for merchants and trade in D&D's Planescape setting?",
-        answer: "Sigil",
+        questions: "What is the standard movement speed for most characters in combat?",
+        answer: "30 feet",
         options: [
-            "Sigil",
-            "Mechanus",
-            "Limbo",
-            "Pandemonium",
+            "20 feet",
+            "30 feet",
+            "40 feet",
+            "50 feet",
         ]
     },
     {
