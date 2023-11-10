@@ -21,6 +21,7 @@ continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeTrivia");
     showTrivia(0);
+    questionCounter(1);
 }
 
 // NExt Button Click
@@ -39,4 +40,10 @@ function showTrivia(index) {
                     + '<div class="option">'+ questions[index].options[3] +'<span></span></div>';
     question_text.innerHTML = question_tag;
     option_list.innerHTML = option_tag;
+}
+
+function questionCounter(index) {
+    const bottom_question_counter = quiz_box.querySelector(".total-questions");
+    let totalQuestionCount = '<span><p>'+ index +'</p>of<p>'+ questions.length +'</p>Questions</span>';
+    bottom_question_counter.innerHTML = totalQuestionCount;
 }
