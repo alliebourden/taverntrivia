@@ -5,6 +5,7 @@ const continue_btn = document.querySelector(".buttons .test-btn");
 const quiz_box = document.querySelector(".quiz-box");
 const next_btn = quiz_box.querySelector(".next-button");
 let question_count = 0;
+let question_numb = 1;
 
 // Start Button Click
 start_btn.onclick = () => {
@@ -26,8 +27,14 @@ continue_btn.onclick = () => {
 
 // NExt Button Click
 next_btn.onclick = () => {
-    question_count++;
-    showTrivia(question_count);
+    if (question_count < questions.length - 1) {
+        question_count++;
+        question_numb++
+        showTrivia(question_count);
+        questionCounter(question_numb);
+    } else {
+        console.log("Questions completed");
+    }
 }
 
 function showTrivia(index) {
