@@ -3,6 +3,8 @@ const info_box = document.querySelector(".info-box");
 const exit_btn = info_box.querySelector(".buttons .exit-btn");
 const continue_btn = document.querySelector(".buttons .test-btn");
 const quiz_box = document.querySelector(".quiz-box");
+const next_btn = quiz_box.querySelector(".next-button");
+let question_count = 0;
 
 // Start Button Click
 start_btn.onclick = () => {
@@ -21,7 +23,11 @@ continue_btn.onclick = () => {
     showTrivia(0);
 }
 
-let question_count = 0;
+// NExt Button Click
+next_btn.onclick = () => {
+    question_count++;
+    showTrivia(question_count);
+}
 
 function showTrivia(index) {
     const question_text = document.querySelector(".question-text");
