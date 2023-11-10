@@ -32,7 +32,7 @@ next_btn.onclick = () => {
 function showTrivia(index) {
     const question_text = document.querySelector(".question-text");
     const option_list = document.querySelector(".answer-list");
-    let question_tag = '<span>'+ questions[index].question +'</span>';
+    let question_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
                     + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
                     + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'
